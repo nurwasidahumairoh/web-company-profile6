@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanasui Skincare - Find Your Serum</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" style="color: var(--dark-pink);" href="#">HANASUI</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#beranda">Beranda</a>
+                <a class="nav-link" href="#produk">Produk</a>
+                <a class="nav-link" href="#tentang">Tentang Kami</a>
+                <a class="nav-link" href="#kontak">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Beranda & Form Biodata -->
+    <section id="beranda" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4 fw-bold mb-4">Temukan Serum <br><span style="color: var(--dark-pink);">Terbaikmu</span></h1>
+                    <p class="lead text-muted">Isi data dirimu untuk mendapatkan rekomendasi serum Hanasui yang paling tepat sesuai kondisi kulitmu.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-4 shadow-sm" data-aos="fade-left">
+                        <h5 class="mb-3">Form Biodata Pengguna</h5>
+                        <form action="#produk">
+                            <div class="mb-3">
+                                <label class="form-label">Nama Lengkap</label>
+                                <input type="text" class="form-control" placeholder="Masukkan nama Anda" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Jenis Kulit</label>
+                                <select class="form-select">
+                                    <option>Berminyak & Berjerawat</option>
+                                    <option>Kering & Kusam</option>
+                                    <option>Normal & Penuaan Dini</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-hanasui w-100">Cari Rekomendasi Produk</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Produk -->
+    <section id="produk" class="section-padding">
+        <div class="container text-center">
+            <h2 class="mb-5 fw-bold">Rekomendasi Serum Untukmu</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="card h-100 card-product p-3">
+                        <img src="serum acne.webp" class="card-img-top" alt="Anti Acne">
+                        <div class="card-body">
+                            <h5 class="card-title">Power Acne Serum</h5>
+                            <p class="card-text text-muted">Solusi tepat untuk kulit berjerawat dan meratakan bekas jerawat.</p>
+                            <span class="badge bg-danger mb-3">Skin Concern: Acne</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 card-product p-3">
+                        <img src="vitamin c.jpeg" class="card-img-top" alt="Brightening">
+                        <div class="card-body">
+                            <h5 class="card-title">Vitamin C + Collagen</h5>
+                            <p class="card-text text-muted">Mencerahkan kulit kusam dan menjaga elastisitas wajah.</p>
+                            <span class="badge bg-warning text-dark mb-3">Skin Concern: Brightening</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 card-product p-3">
+                        <img src="gold serum.webp" class="card-img-top" alt="Anti Aging">
+                        <div class="card-body">
+                            <h5 class="card-title">Whitening Gold Serum</h5>
+                            <p class="card-text text-muted">Nutrisi intensif untuk kulit tampak lebih bercahaya dan awet muda.</p>
+                            <span class="badge bg-primary mb-3">Skin Concern: Anti-Aging</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <a href="#tentang" class="btn btn-outline-secondary rounded-pill px-4">Pelajari Tentang Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>1 Juta+</h2>
+                <p>Pelanggan Puas</p>
+            </div>
+            <div class="col-md-4">
+                <h2>100%</h2>
+                <p>BPOM Certified</p>
+            </div>
+            <div class="col-md-4">
+                <h2>4.9★</h2>
+                <p>Rating Produk</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Tentang Kami -->
+    <section id="tentang" class="section-padding bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="hanasui.jpeg" class="img-fluid rounded-4 shadow" alt="Kualitas">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-4">Dedikasi Untuk Kualitas Terbaik</h2>
+                    <p>Kami percaya bahwa kecantikan harus bisa dijangkau oleh semua orang tanpa mengorbankan kualitas. Oleh karena itu, setiap tetes serum Hanasui dibuat melalui proses:</p>
+                    <ul class="list-unstyled">
+                        <li><strong>✓ Riset Mendalam:</strong> Formulasi yang dikembangkan oleh ahli dermatologi.</li>
+                        <li><strong>✓ Bahan Premium:</strong> Menggunakan bahan aktif berkualitas tinggi dan aman.</li>
+                        <li><strong>✓ Uji Klinis:</strong> Melalui rangkaian uji keamanan untuk memastikan hasil maksimal di kulit tropis.</li>
+                    </ul>
+                    <p>Misi kami adalah memberikan solusi kulit sehat yang nyata, aman, dan bersertifikat BPOM.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding bg-light">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-5">Apa Kata Mereka?</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-4">
+                    ⭐⭐⭐⭐⭐
+                    <p>"Jerawatku jauh berkurang setelah memakai Power Acne Serum."</p>
+                    <strong>- Salsa</strong>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4">
+                    ⭐⭐⭐⭐⭐
+                    <p>"Kulit jadi lebih cerah dan glowing."</p>
+                    <strong>- Putri</strong>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4">
+                    ⭐⭐⭐⭐⭐
+                    <p>"Teksturnya ringan dan cepat meresap."</p>
+                    <strong>- Nabila</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Kontak & Pembelian -->
+    <section id="kontak" class="section-padding text-center">
+        <div class="container">
+            <h2 class="fw-bold mb-3">Dapatkan Produk Sekarang</h2>
+            <p class="mb-4 text-muted">Klik salah satu platform di bawah ini untuk melakukan pembelian resmi.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#" class="btn btn-hanasui">Shopee Mall</a>
+                <a href="#" class="btn btn-hanasui" style="background-color: #25d366;">WhatsApp Admin</a>
+                <a href="#" class="btn btn-hanasui" style="background-color: #000;">TikTok Shop</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center border-top">
+        <p class="mb-0 text-muted">&copy; 2026 Hanasui Recommended Serum Page. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration: 1000,
+    once: true
+});
+</script>
+
+</body>
+</html>
